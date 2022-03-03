@@ -1,0 +1,314 @@
+
+/* Smartphones (portrait & landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+}
+ 
+/* Smartphones (landscape) */
+@media only screen 
+and (min-width : 321px) {
+ 
+}
+ 
+/* Smartphones (portrait) */
+@media only screen 
+and (max-width : 420px) {
+  body{
+    font-size: 18px;
+  }
+ #navEmpresa{
+    display: none;
+  }
+  .fil-search {
+    position: inherit;
+  }
+  section{
+    padding: 0;
+  }
+  #MisOportunidades .row{
+    margin-left: 0;
+    margin-right: 0; 
+  }
+  .chat{
+    display: none;
+  }
+  footer .col-md-9{
+    display: none;
+  }
+  footer{
+    text-align: center;
+  }
+  .alert-publicidad{
+    display: none;
+  }
+  .card-body p {
+    font-size: 16px;
+  }
+  .card-text .fa-question-circle, .card-text .fa-info-circle{
+    display: none;
+  }
+  footer a {
+    font-size: 18px;
+  }
+  .back-to-top {
+    bottom: 20px;
+  }
+  .form-inline{
+    float: none !important;
+  }
+  #Nregistros{
+    margin: 0 !important;
+  }
+  .alert-info, .alert-danger {
+    width: 80%;
+  }
+  section#Contracts, section#MisArriendos, section#Reservas, section#MisCreditos, section#ChangePass {
+    padding: 4rem 0.5rem;
+  }
+  .dropdown-item{
+    font-size: 18px;
+  }
+  .ml-5 {
+    margin-left: 0.7rem!important;
+  }
+  #MisDatos .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  .ih-item.circle {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .OtraNac{
+    margin-top: 15px;
+  }
+  .form-control{
+    font-size: 18px;
+  }
+  #pills-financieros input{
+    width: 150px;
+  }
+  #pills-financieros .mt5{
+    margin-top: 0rem;
+  }
+  #ChangePass button{
+    margin: 0;
+  }
+  .jumbotron{
+    background:#187ca7;
+  }
+  .jumbotron .py-5{
+    padding: 1rem 0.5rem !important
+  }
+  #Proy1{
+    background-image: none;
+  }
+  .black-jumbo{
+    background:transparent;
+    height: auto;
+  }
+  .jumbotron h3{ 
+    display: none;
+  }
+  .content-img {
+    background-color: transparent;
+    text-align: center;
+    margin-top: 1rem !important;
+  }
+  .jumbotron .btn-group{
+    display: none !important;
+  }
+  #Proyectos .col-md-6, #Proyectos .col-md-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #Proyectos .col-md-5{
+    padding: 0 !important;
+  }
+  #Proyectos .ml-2, #Proyectos .col-md-4{
+    margin: 1rem 0rem !important;
+  }
+  #Proyectos.-mb-5{
+    margin-bottom: 1rem !important; 
+  }
+  iframe{
+    width: 100%;
+  }
+  #pills-condiciones p {
+    margin: 0px;
+    font-size: 16px;
+  }
+  #pills-condiciones .col-md-6{
+    margin-bottom: 1.5rem;
+  }
+  .QR-hide{
+    display: none;
+  }
+  .container{
+    padding: 0 !important;
+  }
+  #pills-reserva .mb-5{
+    margin:0 !important;
+    padding: 0!important;
+  }
+  #SeeMore .btn-group{
+    display: block;
+  }
+  #SeeMore .btn-group>.btn-corp2{
+    padding: 0 2rem;
+  }
+  #optiontable, #optiontable2{
+    display: none;
+  }
+  #QReservas ul.ml-2.mr-3 {
+    width: 150px;
+    margin: 0 !important;
+  }
+  #FAQ img{
+    display: none;
+  }
+  #FAQ .card-body {
+    padding-left: 1rem;
+  }
+}
+ 
+/* iPads (portrait & landscape) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  #navEmpresa{
+    display: none;
+  }
+  #MisOportunidades .col-md-3, footer .col-md-3{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .fil-search {
+    position: inherit;
+  }
+  footer .col-md-9{
+    display: none;
+  }
+  .ml-5{
+    margin-left: 0.7rem!important;
+  }
+  .alert-publicidad{
+    display: none;
+  }
+  #TermCond ol {
+    padding: 0;
+  }
+  section#Contracts, section#MisArriendos, section#Reservas, section#MisCreditos, section#ChangePass {
+    padding: 7rem 0;
+  }
+  .col-md-8 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #MisDatos .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  .ih-item.circle {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .jumbotron h3{ 
+    font-size: 1.5rem;
+  }
+  .jumbotron .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 35%;
+    max-width: 50%;
+  }
+  #Proyectos .col-md-5, #Proyectos .col-md-7, #Proyectos .col-md-4,  #Proyectos .col-md-6, #Proyectos .col-md-3{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .Proy-tab-hide{
+    display: none;
+  }
+  #Contador-Tabla{
+    text-align: center;
+  }
+  #QReservas .row .col-md-6{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #QReservas .col-md-6{
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  #SeeMore .fa-question-circle{
+    display: none;
+  }
+  #SeeMore .border{
+    border:0px !important;
+  }
+  #SeeMore .m-3{
+    margin:0px !important;
+  }
+  #SeeMore .m-5{
+    margin: 0rem !important;
+  }
+  #SeeMore .col-md-10{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #SeeMore .col-md-5{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #accordionFAQ .col-md-8{
+    -ms-flex: 0 0 60%  !important;
+    flex: 0 0 60% !important;
+    max-width: 60% !important;
+  }
+}
+/* iPads (landscape) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+ 
+/* iPads (portrait) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+ 
+}
+ 
+/* Ordenadores de sobremesa y portátiles */
+@media only screen 
+and (min-width : 1224px) {
+ 
+}
+ 
+/* Pantallas grandes */
+@media only screen 
+and (min-width : 1824px) {
+ 
+}
+ 
+/* iPhone 4 */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+ 
+}

@@ -1,0 +1,40 @@
+/* ==========================================================================
+  10A. Carousel propiedades
+========================================================================== */
+section#carouselProyectosCom {
+    margin-top: 2rem;
+}
+#StPropiedadesCom .slick-slider .slick-track, .slick-slider .slick-list{
+  height: 600px;
+}
+#StPropiedadesCom .slick-slide img {
+  width: 330px;
+}
+#StPropiedadesCom .slick-slider{
+  display: inherit;
+}
+#StPropiedadesCom .slick-slide img{
+  display:inherit;
+}
+.flag-colorProp {
+  font-weight: bold;
+  font-size: 15px;
+  z-index: 810;
+  position: absolute;
+  color: #fff;
+  padding-left: 12px;
+}
+.flag-cesionProp {
+  width: 172px !important;
+  position: absolute;
+  z-index: 800;
+  top: -13px;
+  margin-left: -8px;
+}
+.flagProp {
+  width: 172px !important;
+  position: absolute;
+  z-index: 800;
+  top: -24px;
+  margin-left: -8px;
+}
